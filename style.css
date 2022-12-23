@@ -7,28 +7,51 @@ cor2 = #222D61
 cor3 = #0927AD
 cor4 = #0C33E0
 cor5 = #506CE6
-*/
-*{
-    font-family: Arial, Helvetica, sans-serif;
-}
-header{
-    background-color: #222d61;
-    height: 200px;
-    margin: -10px;
-}
-
-
-header > span{
+*/ 
+header {
     display: inline-flex;
+    background-image: linear-gradient(to bottom ,#0927AD,#051661);
+    height: 160px;
+    color: white;
+    margin: -10px;
+    width: 100%;
+    box-shadow: 1px 1px 6px 2px black;
+    border-radius: 8px;
 }
-header > span > div{
-    padding-left: 50px;
+header > span.perfil{
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-
-header > span > div > img{
-    width: 100px;
-    height: 100px;
+header > span > img{
+    width: 120px;
+    height: 140px;
     border-radius: 100%;
-    border: 5px solid rgba(22, 6, 114, 0.479);
-    box-shadow: 2px 2px 5px black;
+    border: 1px solid #0927ad ;
+    box-shadow: 1px 1px 4px 1px black;
+}
+header > span.obs{
+    background-color: #0927ad;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 160px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: -4px 8px 11px -4px rgba(0, 0, 0, 0.603);
+}
+nav{
+    padding: 10px;
+    color: white;
+}
+nav > a{
+    color:#506CE6;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    transition-duration: .5s;
+}
+nav > a:hover{
+    padding-top: 10px;
+    background-color:  #0C33E0;
+    color: #506CE6;
 }
