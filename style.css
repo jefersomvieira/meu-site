@@ -144,11 +144,8 @@ article div img{
   height: 75px;
   margin: 10px;
 }
-div#iframe{
-  position: absolute;
-}
+
 iframe{
-  position: relative;
   border: 0px solid black;
   height: 460px;
   width: 515px;
