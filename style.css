@@ -31,7 +31,7 @@ aside{
   width: 250px;
   padding: 10px;
   display: block;
-  margin-top: 20px;
+  margin-top: 25px;
   margin-left: -10px;
 }
 aside div {
@@ -61,17 +61,14 @@ aside div p {
 aside div.card1{
   text-align: center;
   padding: 20px 0px;
-  height: 15vh;
   
 }
 aside div.card2{
   padding: 15px;
   margin-top: 20px;
-  height: 17vh;
 }
 aside div.card3{
   text-align: center;
-  height: 15vh;
   padding: 15px;
   margin-top: 20px;
 }
@@ -81,7 +78,7 @@ aside div.card3 img{
   margin: 5px;
 }
 aside div.card5{
-  height: 785px;
+  height: 805px;
   padding: 15px;
   margin-top: 20px;
 }
